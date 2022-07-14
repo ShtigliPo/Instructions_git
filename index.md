@@ -145,3 +145,9 @@
     git branch --no-merged
 ```
 
+## Перенос основания ветки rebase
+
+```
+    git rebase
+```
+
