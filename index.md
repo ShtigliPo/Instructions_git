@@ -209,5 +209,19 @@
     git reset HEAD
 ```
 
+## Перенос репозитория из GitHub
 
+```
+    git clone <ссылка репозитроия>
+```
 
+## Выкладка своего репозитория на GitHub
+
+```
+    git remote add origin <ссылка>
+    git branch -M main
+    git push -u origin main
+
+После того как ввели изменения на компьютере и сохранили, можно выкладывать изменения одной командой
+    git push -u origin main
+```
